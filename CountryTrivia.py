@@ -1,16 +1,19 @@
 import time
 
+# print delay function delays when text displays
 def print_delay(text):
     time.sleep(1.5)
     print(text)
     return
 
+# increment function keeps count of the users score
 COUNT = 0
 def increment():
     global COUNT
     COUNT = COUNT + 1
     print("Your score is" , COUNT)
 
+# introduction function
 def introduction():
     print("Time to test your knowledge on the world with a variety of geography questions.")
     print_delay("This quiz contains 10 fill in and multiple choice questions.")
@@ -18,6 +21,7 @@ def introduction():
     user_name = input("Let's start by entering your name: ")
     print("Good luck," , user_name)
 
+# functin for ask question that capitlizes user input and gives them correct answer after three tries
 def ask_question(qtitle, question, ans):
     print_delay(qtitle)
     guesses = 0
@@ -35,6 +39,7 @@ def ask_question(qtitle, question, ans):
                 print("You ran out of tries! The answer is", ans)
                 break
 
+# function for multiple choice questions that capitlizes and validates user input 
 def multiple_choice(qtitle, question, correctmsg, falsemsg, ans):
     print(qtitle)
     uans = input(question)  
@@ -48,9 +53,11 @@ def multiple_choice(qtitle, question, correctmsg, falsemsg, ans):
     else:
         print(falsemsg)
 
+# end message with finalized score 
 def end_message():
     print("Thanks for playing. Your final score is", COUNT)
 
+# calls introduction function and displays both ask and multiple choice questions
 def main():
     introduction()
     ask_question("Question 1", "Which country has the largest coastline: ", "Canada")
@@ -85,6 +92,7 @@ def main():
     "Incorrect. The correct answer is Sweden with 267,570 islands, with Norway in second place.",
     "D")
 
+# calls main and end functions
 if __name__ == "__main__":
     main()
     end_message()
