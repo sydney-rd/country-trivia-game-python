@@ -1,6 +1,6 @@
 # CountryTrivia
 
-From terminal, run:
+From the terminal, run:
 
 $ python CountryTrivia.py
 
