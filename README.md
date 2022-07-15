@@ -4,10 +4,10 @@ You will answer five fill in and five multiple choice questions based on geograp
 
 # Requirements
 
-$ sudo apt-get install python3.6
+&nbsp;&nbsp; $ sudo apt-get install python3.6
 
 # Run
 
-$ python CountryTrivia.py
+&nbsp;&nbsp; $ python CountryTrivia.py
 
 
