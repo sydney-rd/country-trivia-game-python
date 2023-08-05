@@ -11,8 +11,9 @@ This quiz contains 5 fill-in questions and 5 multiple choice questions. It's com
 # Run
 
 - This game is played via the CLI (Command Line Interface)
-- 
+  
 &nbsp;&nbsp; $ git clone https://github.com/sydney-rd/country-trivia-game-python.git
+
 &nbsp;&nbsp; $ python CountryTrivia.py
 
 
