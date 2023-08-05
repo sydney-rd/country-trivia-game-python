@@ -1,4 +1,4 @@
-# CountryTrivia
+# Country Trivia Game
 
 Welcome to Python Country Trivia! I find geography fascinating. You'll find me studying maps, flags, and capitals, and learning facts about the most obscure countries in our world 🌎. 
 
